@@ -1,0 +1,84 @@
+.nav__list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.nav__link {
+	box-sizing: border-box;
+	display: block;
+	position: relative;
+	padding-bottom: 11px;
+	text-decoration: none;
+	line-height: 20px;
+	color: #444444;
+	font-size: 15px;
+	font-weight: 500;
+}
+.nav__link--active {
+	line-height: 20px;
+	font-size: 15px;
+	font-weight: 700;
+}
+.nav__link--active::before {
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 5px;
+	background-color: #429F3A;
+	width: 93px;
+	height: 3px;
+	content: "";
+}
+/* 
+Чтобы подчеркивание элемента не выходило за контейнер и не теряло свою длину сделал через вложенность. 
+Прописал первому и последнему элементу. У элементов между выстраивается хорошо
+*/
+.nav__item:first-child .nav__link--active::before {
+	left: 0;
+	transform: translateX(0);
+}
+.nav__item:last-child .nav__link--active::before {
+	right: 0;
+	left: auto;
+	transform: translateX(0);
+}
+@media (min-width: 1440px) {
+	.nav {
+		margin: 0 auto;
+		width: 472px;
+	}
+	.nav__link {
+		padding-bottom: 20px;
+		font-size: 16px;
+	}
+	.nav__link--active {
+		font-weight: 600;
+	}
+	.nav__link--active::before {
+		box-sizing: border-box;
+		display: block;
+		bottom: 1px;
+		left: 50%;
+		transform: translateX(-50%);
+		border-radius: 5px;
+		background-color: #429F3A;
+		width: 115px;
+		height: 5px;
+		content: "";
+	}
+	.nav__item:first-child .nav__link--active::before {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.nav__item:last-child .nav__link--active::before {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}

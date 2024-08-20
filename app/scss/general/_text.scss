@@ -1,0 +1,15 @@
+.text {
+	margin: 0;
+	line-height: 20px;
+	color: #444444;
+	font-size: 14px;
+	font-weight: 400;
+}
+.text__bold {
+	font-weight: 500;
+}
+@media (min-width: 1440px) {
+	.text__bold {
+		font-weight: 400;
+	}
+}

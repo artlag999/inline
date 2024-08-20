@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	margin-bottom: 100px;
+	font-family: "Montserrat", sans-serif;
+}
+.container {
+	box-sizing: border-box;
+	margin: 0 20px;
+	width: auto;
+}
+.section {
+	display: none;
+}
+.section--active {
+	display: block;
+}
+@media (min-width: 1440px) {
+	.container {
+		margin: 0 auto;
+		width: 1066px;
+	}
+}

@@ -1,0 +1,12 @@
+.header {
+	margin-bottom: 24px;
+}
+.header__container {
+	border-bottom: 0.5px solid #B2B2B2;
+	padding-top: 16px;
+}
+@media (min-width: 1440px) {
+	.header {
+		margin-bottom: 50px;
+	}
+}

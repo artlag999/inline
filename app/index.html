@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link nav__link--active" data-nav="desc">ОПИСАНИЕ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link" data-nav="comment">ОТЗЫВЫ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link" data-nav="where">ОТКУДА</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section desc section--active" data-page="desc">
+            <div class="container desc__container">
+                <p class="text desc__text">
+                    <span class="text__bold"> Томаты на ветке красные</span> (помидоры) - более плотные, яркие и
+                    ароматные по сравнению с обычными. Они славятся низкой калорийностью и высоким содержанием
+                    витаминов, клетчатки, пектина и минеральных веществ. В них содержатся также каротиноиды, кислоты
+                    и мощный антиоксидант ликопин.
+                    <br>
+                    <br>
+                    Помидор - незаменимый продукт в мировой кулинарии. Он - основа многочисленных соусов, маринадов,
+                    кетчупа, испанского холодного супа Гаспачо или итальянской закуски Капрезе. С ним делают салаты,
+                    его тушат, солят и консервируют. Помидоры на веточке особенно красиво смотрятся в запеченном
+                    виде.
+                </p>
+                <div class="parametrs">
+                    <h3 class="parametrs__head">ХАРАКТЕРИСТИКИ</h3>
+                    <ul class="parametrs__list">
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Страна</span>
+                            <span class="parametrs-item__value">Россия</span>
+                        </li>
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Поставщик</span>
+                            <span class="parametrs-item__value">Фермеры: Наталья и Юрий Лейшан</span>
+                        </li>
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Тип упаковки</span>
+                            <span class="parametrs-item__value">Крафтовый пакет</span>
+                        </li>
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Сертификаты качества</span>
+                            <span class="parametrs-item__value">В наличии</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="parametrs">
+                    <h3 class="parametrs__head">ПИЩЕВАЯ ЦЕННОСТЬ НА 100Г</h3>
+                    <ul class="parametrs__list">
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Энергетическая ценность</span>
+                            <span class="parametrs-item__value">18 кКал</span>
+                        </li>
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Белки</span>
+                            <span class="parametrs-item__value">0.9 г</span>
+                        </li>
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Жиры</span>
+                            <span class="parametrs-item__value">0.2 г</span>
+                        </li>
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Углеводы</span>
+                            <span class="parametrs-item__value">3.9 г</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="parametrs">
+                    <h3 class="parametrs__head">УСЛОВИЯ ХРАНЕНИЯ</h3>
+                    <ul class="parametrs__list">
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Срок хранения</span>
+                            <span class="parametrs-item__value">7 дней</span>
+                        </li>
+                        <li class="parametrs__item parametrs-item">
+                            <span class="parametrs-item__name">Температура хранения</span>
+                            <span class="parametrs-item__value">от 3 ° до 7 °</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section comment" data-page="comment">
+            <div class="container comment__container">
+                <p class="text comment__text">Помогите нам стать ещё лучше. Оставляя отзывы, вы таким образом указываете
+                    нам на зоны роста. Мы правда, читаем все отзывы.</p>
+                <button class="comment__btn">Оставить отзыв</button>
+            </div>
+        </section>
+        <section class="section where" data-page="where">
+            <div class="container where__container">
+                    <p class="text where__text">
+                        <span class="text__bold"> Томаты на ветке красные</span> (помидоры) - более плотные, яркие и
+                        ароматные по сравнению с обычными. Они славятся низкой калорийностью и высоким содержанием
+                        витаминов, клетчатки, пектина и минеральных веществ. В них содержатся также каротиноиды, кислоты
+                        и мощный антиоксидант ликопин.
+                        <br>
+                        <br>
+                        Помидор - незаменимый продукт в мировой кулинарии. Он - основа многочисленных соусов, маринадов,
+                        кетчупа, испанского холодного супа Гаспачо или итальянской закуски Капрезе. С ним делают салаты,
+                        его тушат, солят и консервируют. Помидоры на веточке особенно красиво смотрятся в запеченном
+                        виде.
+                    </p>
+                <div class="where__supplier supplier">
+                    <h3 class="supplier__name">Наталья и Юрий Лейшан</h3>
+                    <img src="images/man.webp" alt="" class="supplier__photo">
+                    <div class="supplier__btns">
+                        <button class="supplier__btn">Сертификаты</button>
+                        <button class="supplier__btn">О поставщике</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section similar section--active" data-page="desc">
+            <div class="container similar__container">
+                <h2 class="similar__head">С этим товаром покупают</h2>
+                <div class="swiper similar__swiper">
+                    <ul class="similar__list swiper-wrapper">
+                        <li class="similar__item similar-item swiper-slide swiper-slide-active">
+                            <button class="similar-item__like">
+                                <svg width="20" height="19" viewbox="0 0 20 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.88659 16.6603L8.88587 16.6596C6.30081 14.3155 4.19567 12.4057 2.73078 10.6147C1.27162 8.83074 0.5 7.22576 0.5 5.5C0.5 2.69614 2.69614 0.5 5.5 0.5C7.08861 0.5 8.62112 1.24197 9.61932 2.41417L10 2.8612L10.3807 2.41417C11.3789 1.24197 12.9114 0.5 14.5 0.5C17.3039 0.5 19.5 2.69614 19.5 5.5C19.5 7.22577 18.7284 8.83077 17.2691 10.6161C15.8065 12.4055 13.7058 14.3144 11.1265 16.6584L11.1148 16.669L11.1137 16.67L10.0013 17.675L8.88659 16.6603Z"
+                                        stroke="white" />
+                                </svg>
+                            </button>
+                            <img src="images/milk.webp" alt="" class="similar-item__img">
+                            <div class="similar-item__textblock">
+                                <h3 class="similar-item__name">Молоко 3,2 %</h3>
+                                <p class="similar-item__from">от Вадима Рошки</p>
+                                <p class="similar-item__price similar-item-price">
+                                    <span class="similar-item-price__cost">95 &#8381;</span>
+                                    <span class="similar-item-price__slash"> / </span>
+                                    <span class="similar-item-price__unit">0,93 л</span>
+                                </p>
+                                <p class="similar-item__rate">
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                </p>
+                                <button class="similar-item__buy">В корзину</button>
+                            </div>
+                        </li>
+                        <li class="similar__item similar-item swiper-slide swiper-slide-active">
+                            <button class="similar-item__like">
+                                <svg width="20" height="19" viewbox="0 0 20 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.88659 16.6603L8.88587 16.6596C6.30081 14.3155 4.19567 12.4057 2.73078 10.6147C1.27162 8.83074 0.5 7.22576 0.5 5.5C0.5 2.69614 2.69614 0.5 5.5 0.5C7.08861 0.5 8.62112 1.24197 9.61932 2.41417L10 2.8612L10.3807 2.41417C11.3789 1.24197 12.9114 0.5 14.5 0.5C17.3039 0.5 19.5 2.69614 19.5 5.5C19.5 7.22577 18.7284 8.83077 17.2691 10.6161C15.8065 12.4055 13.7058 14.3144 11.1265 16.6584L11.1148 16.669L11.1137 16.67L10.0013 17.675L8.88659 16.6603Z"
+                                        stroke="white" />
+                                </svg>
+                            </button>
+                            <img src="images/bread.webp" alt="" class="similar-item__img">
+                            <div class="similar-item__textblock">
+                                <h3 class="similar-item__name">Хлеб пшеничный</h3>
+                                <p class="similar-item__from">от Дарьи и Марии</p>
+                                <p class="similar-item__price similar-item-price">
+                                    <span class="similar-item-price__cost">95 &#8381;</span>
+                                    <span class="similar-item-price__slash"> / </span>
+                                    <span class="similar-item-price__unit">930 г</span>
+                                </p>
+                                <p class="similar-item__rate">
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                </p>
+                                <button class="similar-item__buy">В корзину</button>
+                            </div>
+                        </li>
+                        <li class="similar__item similar-item swiper-slide swiper-slide-active">
+                            <button class="similar-item__like">
+                                <svg width="20" height="19" viewbox="0 0 20 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.88659 16.6603L8.88587 16.6596C6.30081 14.3155 4.19567 12.4057 2.73078 10.6147C1.27162 8.83074 0.5 7.22576 0.5 5.5C0.5 2.69614 2.69614 0.5 5.5 0.5C7.08861 0.5 8.62112 1.24197 9.61932 2.41417L10 2.8612L10.3807 2.41417C11.3789 1.24197 12.9114 0.5 14.5 0.5C17.3039 0.5 19.5 2.69614 19.5 5.5C19.5 7.22577 18.7284 8.83077 17.2691 10.6161C15.8065 12.4055 13.7058 14.3144 11.1265 16.6584L11.1148 16.669L11.1137 16.67L10.0013 17.675L8.88659 16.6603Z"
+                                        stroke="white" />
+                                </svg>
+                            </button>
+                            <img src="images/egg.webp" alt="" class="similar-item__img">
+                            <div class="similar-item__textblock">
+                                <h3 class="similar-item__name">Яйца куриные</h3>
+                                <p class="similar-item__from">от Евгения Рошаль</p>
+                                <p class="similar-item__price similar-item-price">
+                                    <span class="similar-item-price__cost">120 &#8381;</span>
+                                    <span class="similar-item-price__slash"> / </span>
+                                    <span class="similar-item-price__unit">10 шт</span>
+                                </p>
+                                <p class="similar-item__rate">
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                </p>
+                                <button class="similar-item__buy">В корзину</button>
+                            </div>
+                        </li>
+                        <li class="similar__item similar-item swiper-slide">
+                            <button class="similar-item__like">
+                                <svg width="20" height="19" viewbox="0 0 20 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.88659 16.6603L8.88587 16.6596C6.30081 14.3155 4.19567 12.4057 2.73078 10.6147C1.27162 8.83074 0.5 7.22576 0.5 5.5C0.5 2.69614 2.69614 0.5 5.5 0.5C7.08861 0.5 8.62112 1.24197 9.61932 2.41417L10 2.8612L10.3807 2.41417C11.3789 1.24197 12.9114 0.5 14.5 0.5C17.3039 0.5 19.5 2.69614 19.5 5.5C19.5 7.22577 18.7284 8.83077 17.2691 10.6161C15.8065 12.4055 13.7058 14.3144 11.1265 16.6584L11.1148 16.669L11.1137 16.67L10.0013 17.675L8.88659 16.6603Z"
+                                        stroke="white" />
+                                </svg>
+                            </button>
+                            <img src="images/butter.webp" alt="" class="similar-item__img">
+                            <div class="similar-item__textblock">
+                                <h3 class="similar-item__name">Масло сливочное 82 %</h3>
+                                <p class="similar-item__from">от Вадима Рошки</p>
+                                <p class="similar-item__price similar-item-price">
+                                    <span class="similar-item-price__cost">290 &#8381;</span>
+                                    <span class="similar-item-price__slash"> / </span>
+                                    <span class="similar-item-price__unit">250 г</span>
+                                </p>
+                                <p class="similar-item__rate">
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                    <span class="similar-item__star"></span>
+                                </p>
+                                <button class="similar-item__buy">В корзину</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/similarSwiper.js"></script> -->
+    <!-- <script src="js/navTabs.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.comment__text {
+	margin: 0;
+	margin-bottom: 32px;
+}
+.comment__btn {
+	display: block;
+	margin: 0 auto;
+	border: none;
+	border-radius: 5px;
+	background-color: #429f3a;
+	cursor: pointer;
+	width: 184px;
+	height: 40px;
+	line-height: 20px;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 600;
+}
+@media (min-width: 1440px) {
+	.comment__text {
+		margin-bottom: 33px;
+		width: 523px;
+	}
+	.comment__btn {
+		margin: 0;
+	}
+}
